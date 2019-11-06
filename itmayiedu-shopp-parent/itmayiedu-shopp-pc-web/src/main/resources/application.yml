@@ -1,0 +1,24 @@
+server:
+  port: 80
+#  context-path: /web
+
+#Eureka服务注册中心配置
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+spring:
+  application:
+    name: pc-web
+    
+  ## Freemarker 配置   freemarker:    template-loader-path: classpath:/templates/   # 模版存放路径   默认：classpath:/templates/    cache: false                                  # 是否开启缓存，生产环境建议开启  默认：true    charset: UTF-8                                # 编码    check-template-location: true                 #    content-type: text/html                       # content-type类型  默认：text/html    expose-request-attributes: false              # 设定所有request的属性在merge到模板的时候，是否要都添加到model中    默认：false    expose-session-attributes: false              # 设定所有HttpSession的属性在merge到模板的时候，是否要都添加到model中    默认：false    request-context-attribute: request            # RequestContext属性的名称    suffix: .ftl                                  # 模板后缀    默认：.ftl
+    
+    
+    
+    
+    
+    
+    
+    
+    
